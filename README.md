@@ -11,6 +11,7 @@ This is a full stack security-focused banking web application builts as part of 
 -   Session management and Access Control
 -   Code obfuscation
 -   Public Key Certification
+-   Chatbot
 
 ### Technologies
 
