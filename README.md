@@ -23,7 +23,7 @@ This is a full stack security-focused banking web application builts as part of 
 
 ### How to run
 
-**N.B. The mysql connector details has been erased**<br>
+`N.B. The mysql connector details has been erased`<br>
 
 -   Install python and all the other requird libraries in 'requirements.txt' in your local system
 -   run flask to boot the server
