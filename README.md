@@ -1,6 +1,6 @@
 ## Secure Banking Web Application
 
-This is a full stack security-focused banking web application builts as part of the course project for Software Security. This project primarily focuses on implementing security features for the banking functionalities and normal web practices and was to be tested by our peers for potential security breaches. I was the leader for this group project and managed a team of 5 people over 4 months with a fully online synchronized and agile working culture to complete this project. Ours was one of the most modern, robust and secure websites among all the others.
+This is a full stack security-focused banking web application built as part of the course project for Software Security. This project primarily focuses on implementing security features for the banking functionalities and normal web practices and was to be tested by our peers for potential security breaches. I was the leader for this group project and managed a team of 5 people over 4 months with a fully online synchronized and agile working culture to complete this project. Ours was one of the most modern, robust and secure websites among all the others.
 
 ### Features
 
