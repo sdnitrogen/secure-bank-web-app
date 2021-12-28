@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: sienna;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid yellow;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: yellow;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
+
+.navbar-custom {
+  background-color: maroon;
+}
+.navbar-custom .navbar-nav > li,
+.navbar-custom .navbar-nav > li > a {
+  color: yellow;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #af4600;
+}
+.navbar-custom .dropdown-menu {
+  background-color: #ff6600;
+  border-color: #af4600;
+  color: #ffffff;
+}
+.navbar-custom .dropdown-menu > li,
+.navbar-custom .dropdown-menu > li > a {
+  color: yellow;
+}
+.navbar-custom .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:hover {
+  background-color: #ff6600;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: yellow;
+}
+
+.btn-primary {
+  background-color: maroon;
+  color: yellow;
+  outline: none;
+  border: none;
+}
+
+.btn-primary:active.focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #ff6600;
+  color: yellow;
+  outline: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff6600 !important;
+  color: yellow;
+  outline: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+#wlcm_msg {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 3rem;
+  margin-left: 16px;
+  color: yellow;
+  text-align: center;
+}
+
+.my_accs_float {
+  width: 100%;
+}
+
+.account_cards {
+  position: relative;
+  width: 33.3%;
+  float: left;
+  height: auto;
+  padding: 2px 16px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.account_cards_content {
+  width: 100%;
+  height: auto;
+  border-radius: 0.2em;
+  background-color: #ffc59e;
+  padding: 2px 16px;
+  vertical-align: middle;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.account_cards_content:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.account_type_text {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.ac_details {
+  display: block;
+  text-align: left;
+}
+
+.ac_details_text {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+p {
+  display: inline-block;
+}
+
+.header_divider {
+  border-top: 2px solid black;
+}
+
+.modal-content {
+  outline: none;
+  border: none;
+}
+
+.modal-header {
+  display: block;
+  background-color: maroon;
+  color: yellow;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.modal-dialog-centered {
+  top: 20%;
+}
+
+.close {
+  color: white;
+  display: inline-block;
+  margin-top: 5px !important;
+}
+
+.table-color th {
+  border: maroon solid 2px !important;
+  color: white;
+  background-color: #ff6600;
+}
+
+.table-color td {
+  border: maroon solid 1px !important;
+  color: black;
+  background-color: #ffc59e;
+}
+
+.details_lbl {
+  width: 15%;
+  color: yellow;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+.fixed_header tbody {
+  display: block;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+}
+.fixed_header thead tr {
+  display: block;
+}
+
+.scrollable_div {
+  display: block;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+}
+
+#keyboard {
+  max-width: 380px;
+  width: 100%;
+  bottom: 0px;
+  padding-bottom: 5px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.otprow {
+  width: 100%;
+  margin: 4px 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.key {
+  margin: 2px 0;
+  padding: 5px 5px;
+  width: 25%;
+  text-align: center;
+  border-radius: 15px;
+  cursor: grab;
+  color: white;
+  font-weight: 600;
+  background-color: #ff6600;
+}
+
+.num {
+  padding: 7px 7px;
+}
+
+.gi-2x {
+  font-size: 2em;
+}
+.gi-3x {
+  font-size: 3em;
+}
+.gi-4x {
+  font-size: 4em;
+}
+.gi-5x {
+  font-size: 5em;
+}
+
+@media (max-width: 1199px) {
+  .btn-sq {
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .btn-sq {
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 300px;
+  }
+  .account_cards {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: auto;
+    border-radius: 0.2em;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-sq {
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-sq {
+    width: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+  }
+}
